@@ -5,6 +5,6 @@ numero = int(input('Escolha seu número: '))
 
 i = 0
 while i <= numero:
-    print(i)
+    print(i, end=' ')
     if i%2 == 0:
         i += 2
